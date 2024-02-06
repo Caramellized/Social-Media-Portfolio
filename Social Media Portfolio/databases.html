@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles_databases.css">
+    <title>Caramellized</title>
+</head>
+<body>
+    <header>
+        <img src="img/frogbanner.png" alt="Frog" width="950" height="300">
+        <h3>Concept Artist and Illustrator</h3>
+        <nav>
+            <ul>
+                <li><a href="portfolio.html">portfolio</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li class="dropdown">
+                    <a href="#ClassProjects">class projects</a>
+                    <div class="dropdown-content">
+                        <a href="keyconcepts.html">Key Concepts</a>
+                        <a href="architecture.html">Platform Architecture</a>
+                        <a href="frontend.html">Frontend Development</a>
+                        <a href="backend.html">Backend Development</a>
+                        <a href="databases.html">Data Storage and Databases</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="about-content">
+            <div class="text-container">
+                <h1>Data Storage and Databases</h1>
+                <strong>What are we talking about here? </strong>
+                <p>Data storage refers to the organization and retention of information in a structure manner, so that it can later be retrieved and manipulated easily. In the context of web development, they play a central role. It is essential for  handling large  amounts of information and also support functionalities like user authentication and content management. </p>
+                <img src="img/datafrog.png" alt="QuestionFrogBack" width="800" height="800"> 
+                <strong>Relational Database</strong>
+                <p>In an exercise of bringing more complicated terms closer to us, we were each given a keyword that we received a certain amount of time to research for.  Our keyword was ‘’Relational Database” and after thorough research, I concluded the term the following:</p>
+            <p>- short RDB, a way of structuring information in tables rows and columns.</p>
+            <p>- developed or at least based on an idea by Edgar F. Codd in the 1970s</p>
+            <p>- introduced the term in his research paper and defined what he meant by relational</p>
+            <p>- method is to present data to users as relations, so that means that the term relational referes to the concept of relationships between tables for example</p>
+            <p>- these relationships are established through keys</p>
+            <p>- each table has for example keys that uniquely identify each one</p>
+            <p><strong>Different Keys:</strong></p>
+            <p><strong>Primary:</strong>it ensures that each row in the tables can be uniquely identified and it can not contain any NULL values (a placeholder for a missing value or an absence of data in a specific place)</p>
+            <p><strong>Foreign:</strong>a field or a set of fields in one table that refers to the primary key in another table, so it essentially creates a link between them (relationship)</p>
+            <p><strong>Unique:</strong></p>unique key: similar to primary key, it also ensures that a column has unique values but it can allow NULL values unlike the primary key 
+            <p><strong>Composite:</strong></p>consists of multiple columns that when combined can uniquely identify a record (single row in a table that contains a complete set of information) within a table (library example)
+            <p><strong>Types of Relationships:</strong> one - to - one, so record of table a corresponds to record in table B, one to many: one record in table a links to multiple in table b, many - to many- multiple records from a to multiple to b </p>
+            <p>relationships enabe efficient data retrieval and management, so everything works accordingly across tables</p>
+            <p>In conclusion, this part of the course focused on helping us understand how databases are essential for a structured collection of data and is designed to effectively manage, story and retrieve information.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Caramellized. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
